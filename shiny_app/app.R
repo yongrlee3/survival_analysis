@@ -70,7 +70,7 @@ ui <- navbarPage(
                 p(
                     "You can find the data and code for this project on my ",
                     a("Github",
-                      href = "https://github.com/yongrlee3/SurvivalAnalysis"
+                      href = "https://github.com/yongrlee3/survival_analysis"
                     ),
                     "."
                 )
