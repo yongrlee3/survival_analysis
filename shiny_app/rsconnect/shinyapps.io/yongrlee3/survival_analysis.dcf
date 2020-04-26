@@ -1,0 +1,12 @@
+name: survival_analysis
+title: survival_analysis
+username:
+account: yongrlee3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2187071
+bundleId: 3065535
+url: https://yongrlee3.shinyapps.io/survival_analysis/
+when: 1587870437.4742
+asMultiple: FALSE
+asStatic: FALSE
