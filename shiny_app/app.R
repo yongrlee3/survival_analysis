@@ -60,11 +60,30 @@ ui <- navbarPage(
   "Synchronous Lecture Attendance in Online Courses",
   tabPanel(
     "About",
-    h1("Background"),
+    tabsetPanel(
+        tabPanel("Background",
+                 br(),
     p("The transition to online learning in the midst of COVID-19 has disrupted traditional in-person classrooms, raising concerns about student engagement in online learning. The goal of this project is to examine differential patterns of attrition in synchronous attendance between different online courses. This analysis focuses on two online courses: GOV1005 and S052. GOV1005 is an introductory data science course taught by David Kane, a preceptor for Harvard College's Goverment department. S052 is an advanced statistical methods course taught by Andrew Ho, a professor of education at the Harvard Graduate School of Education."),
     p("While both courses are led by engaging instructors who have seamlessly transitioned to online learning, differing attitudes towards synchronous lecture attendance offers the unique opportunity to test whether stricter attendance policies result in better attendance outcomes. GOV1005 offers no recorded lectures and requires synchronous lecture attendance as part of students' participation grades, whereas S052 accomodates a more lenient attendance policy that allows students to attend asynchronously through recorded sessions."),
     p("It is important to note that this analysis helps to quantify the effect of online attendance policies on synchronous lecture attendance, and not student learning outcomes or even student lecture attendance overall. In addition, this project explores differential patterns of attrition across gender, as well as periods throughout the semester where students are most susceptible to attrition. In doing so, this analysis aims to inform pedagogical strategies that can help address challenges in online learning related to course philosophy, semester seasonality, and student groups.")
-  ),
+        ),
+    tabPanel("About Me",
+             br(),
+    p("I am a former finance professional studying Education Policy and Management at the Harvard Graduate School of Education. I am passionate about leveraging data to inform strategic insights; namely in the fields of education, finance, and technology."),
+    p(
+        "You can reach me at ",
+        a("yonglee@gse.harvard.edu",
+          href = "mailto: yonglee@gse.harvard.edu",
+        ),
+        "or ",
+        a("LinkedIn",
+          href = "https://www.linkedin.com/in/yong-lee-034b39b8/"
+        ),
+        "."
+    )
+  )
+        )
+    ),
   tabPanel(
     "Data",
     tabsetPanel(
@@ -282,22 +301,9 @@ ui <- navbarPage(
         p("Lastly, the designations made for censoring and defining the event of interest were thoroughly considered, but remain unsupported by data. A different censoring method, as well as a more conservative or aggressive event threshold may prove to be more appropriate in conducting this survival analysis.")
       ),
       tabPanel(
-        "About Me",
-        h3("About Me"),
-        p("I am a former finance professional studying Education Policy and Management at the Harvard Graduate School of Education. I am passionate about leveraging data to inform strategic insights; namely in the fields of education, finance, and technology."),
-        p(
-          "You can reach me at ",
-          a("yonglee@gse.harvard.edu",
-            href = "mailto: yonglee@gse.harvard.edu",
-          ),
-          "or ",
-          a("LinkedIn",
-            href = "https://www.linkedin.com/in/yong-lee-034b39b8/"
-          ),
-          "."
-        ),
-        h3("Acknowledgements"),
-        p("Thank you Preceptor Kane, Professor Ho, and other members of the teaching staff for your instruction and guidance this semester. You adjusted with grace and understanding while remaining steadfast in the mission to motivate, teach, and serve. There is no better time than during this moment of uncertainty to appreciate and apply the power of statistical methods and data science.")
+        "Acknowledgements",
+        br(),
+        p("Thank you Preceptor Kane, Professor Ho, and all other members of the teaching staff for your instruction and guidance this semester. You adjusted with grace and understanding while remaining steadfast in the mission to motivate, teach, and serve. There is no better time than during this moment of uncertainty to appreciate the applied practice of statistical methods and data science.")
       )
     )
   )
