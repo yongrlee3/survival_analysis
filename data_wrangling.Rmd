@@ -1,0 +1,84 @@
+---
+title: "data_cleaning"
+author: "Yong Lee"
+date: "5/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# load necessary packages
+
+library(tidyverse)
+```
+
+Data was collected and values were assigned in Excel using logical if statements. For attendance data where 1 indicates presence and 0 indicates absence, a string of 11 values were concatonated and examined for a succession of 3 or more 0's following after a 1. This was done to distinguish individuals who started attending online lectures later on in the semester and those who dropped out. Censorship was assigned on the basis of surviving students whose data for select periods of time were unavailable. The event variable is reserved for data wrangling in R.
+
+```{r load}
+# load entire dataset
+# create event variable
+# create outcome variable
+## variables are same but needed separately later on
+# convert censor variable to factor type
+
+data_all <- read_csv("raw-data/Attendance.csv", col_types = cols()) %>%
+  mutate(
+    Event = 1 - Censor,
+    Outcome = factor(1 - Censor,
+      levels = c(0, 1),
+      labels = c("Attended Lectures", "Dropped Out")
+    ),
+    Censor = factor(Censor,
+      levels = c(0, 1),
+      labels = c("Uncensored", "Censored")
+    )
+  )
+
+# save dataset in raw-data subdirectory
+
+saveRDS(data_all, "shiny_app/raw-data/data_all.rds")
+```
+
+```{r students}
+# filter out members of the teaching staff
+# select only variables of interest
+
+data_students <- data_all %>%
+  filter(Role == "Student") %>%
+  select(Role, ID, Course, Gender, Lectures, Censor, Event, Outcome)
+
+# save dataset in raw-data subdirectory
+
+saveRDS(data_students, "shiny_app/raw-data/data_students.rds")
+```
+
+```{r attended}
+# filter out students who never attendned lecture synchronously
+# select only variables of interest
+
+data <- data_all %>%
+  filter(Role == "Student", Start != 0) %>%
+  select(Role, ID, Course, Gender, Lectures, Censor, Event, Outcome)
+
+# save dataset in raw data subdirectory
+
+saveRDS(data, "shiny_app/raw-data/data.rds")
+```
+
+```{r pp}
+# convert person-level to person-period data
+# uncount duplicates observations by lecture value
+# create period variable that uniquely identifies each lecture observation
+# create exit variable that identifies period in which student drops out
+
+data_pp <- data %>%
+  uncount(Lectures, .remove = FALSE) %>%
+  mutate(
+    Period = as.factor(unlist(c(sapply(data$Lectures, function(x) seq(1, x))))),
+    Exit = ifelse(Lectures == Period, Event, 0)
+  )
+
+# save dataset in raw data subdirectory
+
+saveRDS(data_pp, "shiny_app/raw-data/data_pp.rds")
+```

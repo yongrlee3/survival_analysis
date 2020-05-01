@@ -10,50 +10,11 @@ library(patchwork)
 library(shinydashboard)
 library(gt)
 
-# load entire dataset
-# create event variable
-# create outcome variable
-## varaibles are same but needed separately later on
-# convert censor variable to factor type
-
-data_all <- read_csv("raw-data/Attendance.csv", col_types = cols()) %>%
-  mutate(
-    Event = 1 - Censor,
-    Outcome = factor(1 - Censor,
-      levels = c(0, 1),
-      labels = c("Attended Lectures", "Dropped Out")
-    ),
-    Censor = factor(Censor,
-      levels = c(0, 1),
-      labels = c("Uncensored", "Censored")
-    )
-  )
-
-# filter out members of the teaching staff
-# select only variables of interest
-
-data_students <- data_all %>%
-  filter(Role == "Student") %>%
-  select(Role, ID, Course, Gender, Lectures, Censor, Event, Outcome)
-
-# filter out students who never attendned lecture synchronously
-# select only variables of interest
-
-data <- data_all %>%
-  filter(Role == "Student", Start != 0) %>%
-  select(Role, ID, Course, Gender, Lectures, Censor, Event, Outcome)
-
-# convert person-level to person-period data
-# uncount duplicates observations by lecture value
-# create period variable that uniquely identifies each lecture observation
-# create exit variable that identifies period in which student drops out
-
-data_pp <- data %>%
-  uncount(Lectures, .remove = FALSE) %>%
-  mutate(
-    Period = as.factor(unlist(c(sapply(data$Lectures, function(x) seq(1, x))))),
-    Exit = ifelse(Lectures == Period, Event, 0)
-  )
+# load datasets
+data_all <- read_rds("raw-data/data_all.rds")
+data_students <- read_rds("raw-data/data_students.rds")
+data <- read_rds("raw-data/data.rds")
+data_pp <- read_rds("raw-data/data_pp.rds")
 
 ui <- navbarPage(
   theme = shinytheme("sandstone"),
