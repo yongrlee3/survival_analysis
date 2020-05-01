@@ -90,14 +90,14 @@ ui <- navbarPage(
       tabPanel(
         "Collection & Manipulation",
         br(),
-        p("Lecture attendance data was collected via Zoom for students in both classes, who have been anonymized for privacy purposes. Both classes conducted biweekly lectures on Tuesdays and Thursdays, hosting 11 lectures in total. This analysis examines the first 10 online lectures, since the 11th lecture serves as the culminating final project session for GOV1005 students. Additionally, student characteristics data collected from Canvas' course roster was used to supplement the existing attendance data. Future extensions of this analysis may involve examining differential patterns of attrition across additional predictors like registration type, student year, or school given a larger dataset of more than two courses."),
-        p("Because members of the teaching staff operate under different incentives than students, their attendance data was excluded from this survival analysis. Additionally, Students who never attended online lecture synchronously throughout the 10 lecture period were also excluded from this analysis. These students were assumed to have been excused from synchronous lecture attendance as a result of case-specific challenges like time-zone differences or learning accomodations. Only students who attended at least one online lecture synchronously were considered for this analysis. A student was defined as dropping out of online lectures if they failed to synchronously attend three or more consecutive lectures after having attended one previously. Given the 10 lecture timeline, a threshold of four missed lectures was too conservative while two missed lectures was too aggressive considering the biweekly nature of both courses.")
+        p("Both classes conducted biweekly lectures on Tuesdays and Thursdays, hosting 11 lectures in total. Lecture attendance data was collected via Zoom for students in both classes, who have been anonymized for privacy purposes. Additionally, student characteristics data collected from Canvas' course roster was used to supplement the existing attendance data. Future extensions of this analysis may involve examining differential patterns of attrition across additional predictors like registration type, student year, or school given a larger dataset of more than two courses."),
+        p("Because members of the teaching staff operate under different incentives than students, their attendance data was excluded from this survival analysis. Additionally, Students who never attended online lecture synchronously throughout the 11 lecture period were also excluded from this analysis. These students were assumed to have been excused from synchronous lecture attendance as a result of case-specific challenges like time-zone differences or learning accomodations. Only students who attended at least one online lecture synchronously were considered for this analysis. A student was defined as dropping out of online lectures if they failed to synchronously attend three or more consecutive lectures after having attended one previously. Given the 11 lecture timeline, a threshold of four missed lectures was too conservative while two missed lectures was too aggressive considering the biweekly nature of both courses.")
       ),
       tabPanel(
         "Data Censoring",
         br(),
-        p("Lecture attendance was tracked on a relative basis to account for students whose transition to online learning was interupted by travel and other extenuating circumstances. As a result, if certain students began attending online lectures synchronously after the third lecture, their attendance in the fourth lecture was recorded for their first lecture. To keep lecture periods consistent on an absolute basis, these students were censored in the dataset so that only their attendance in lectures 4-10 were included in the analysis."),
-        p("Censoring addresses a problem intrinsic to survival data: the fact that not every student experiences the drop out event within the duration of the study. While students who attended all 10 lectures may drop out after 15 or 20 lectures, the timeline for data collection limits this information. Therefore there is no way to know the drop out period for students in the sample who may have the longest times-to-event. Additionally, students who stopped attending after lecture 8 cannot be defined as having dropped out, since their attendance data after lecture 10 does not exist. While censored students present incomplete data, removing them completely would bias the results towards students in the sample who dropped out within the observation period. Therefore, data collected prior to censoring for students who began attending lectures late, continued attending beyond the cutoff, or stopped attending near the cutoff was included in the analysis.. "),
+        p("Lecture attendance was tracked on a relative basis to account for students whose transition to online learning was interupted by travel and other extenuating circumstances. As a result, if certain students began attending online lectures synchronously after the third lecture, their attendance in the fourth lecture was recorded for their first lecture. To keep lecture periods consistent on an absolute basis, these students were censored in the dataset so that only their attendance in lectures 4-11 were included in the analysis."),
+        p("Censoring addresses a problem intrinsic to survival data: the fact that not every student experiences the drop out event within the duration of the study. While students who attended all 11 lectures may drop out after 15 or 20 lectures, the timeline for data collection limits this information. Therefore there is no way to know the drop out period for students in the sample who may have the longest times-to-event. Additionally, students who stopped attending after lecture 9 cannot be defined as having dropped out, since their attendance data after lecture 11 does not exist. While censored students present incomplete data, removing them completely would bias the results towards students in the sample who dropped out within the observation period. Therefore, data collected prior to censoring for students who began attending lectures late, continued attending beyond the cutoff, or stopped attending near the cutoff was included in the analysis.. "),
         p(
           "You can find the data and code for this project on my ",
           a("Github",
@@ -134,7 +134,7 @@ ui <- navbarPage(
         h4("Logistic Regression"),
         p("When modeling dichotomous outcomes, the logistic regression serves as a credible and interpretable method for representing the relationship between the underlying probability of an event and different predictors. Beginning with a baseline logistic regression model that estimates the unconditional hazard probability of synchronous online lecture attendance, the analysis tests for statistically significant associations between the hazard probability and predictors like time period, course, and gender."),
         h4("Maximum Log Likelihood"),
-        p("The chi-squared likelihood ratio tests the statistical significance of these associations by comparing the difference in maximum log-likelihood between models. Because the log-likelihood describes the overall goodness-of-fit of the model, its difference can be compared across models to assess whether the inclusion of different predictors significantly affected the estimated outcome.")
+        p("The maximum likelihood tests the statistical significance of these associations by comparing the difference in maximum log-likelihood between models. Because the log-likelihood describes the overall goodness-of-fit of the model, its difference can be compared across models to assess whether the inclusion of different predictors significantly affected the estimated outcome.")
       ),
       tabPanel(
         "Person-Period Data",
@@ -230,7 +230,7 @@ ui <- navbarPage(
           numericInput(
             "intercept",
             "Intercept",
-            -5.22
+            -5.206
           )
         ),
         column(
@@ -238,7 +238,7 @@ ui <- navbarPage(
           numericInput(
             "coefficient",
             "Coefficient",
-            0.758
+            0.611
           )
         ),
         column(
@@ -277,7 +277,7 @@ ui <- navbarPage(
           "model",
           "Select Model",
           c("Model 1" = "model1", "Model 2" = "model2", "Model 3" = "model3", "Model 4" = "model4", "Model 5" = "model5", "Model 6" = "model6"),
-          selected = "model3"
+          selected = "model5"
         ),
         plotOutput("model")
       )
@@ -289,9 +289,9 @@ ui <- navbarPage(
       tabPanel(
         "Findings",
         br(),
-        p("Schools have been forced to quickly transition to online learning as a result of the COVID-19 crisis. Has this transition impacted school engagement for specific student groups? Specifically, are there differential patterns of attrition in synchronous online lecture attendance across different courses? This study tracks the attendance outcomes of 107 S052 and 120 GOV1005 students throughout the 10 lectures conducted in an online setting. Students were defined as having exited if they failed to synchronously attend three or more consecutive lectures after having attended one previously. Because 24 of the 227 students never attended lectures synchronously, they were excluded from the analysis."),
-        p("The anaysis fits a discrete-time hazard model for lecture absences in each week using course as our key predictor. Through logistic regression, the analysis tests whether the hazard probability of dropping out of attending online lectures synchronously is different for S052 students compared to that of GOV1005 students. The chi-squared likelihood ratio tests the null hypothesis that there is no difference in the log-odds of dropping out between S052 and GOV1005 students who operate under contrasting attendance policies. The difference was not statistically significant and I failed to reject the null hypothesis that there were differing levels of attrition between courses."),
-        p("The estimated log-odds of S052 exiting is 0.641 higher compared to GOV1005 students across all periods, but this difference is not statistically significant even after controlling for gender. The estimated probability of S052 students quitting synchronous online lecture in lecture one was 1.3% while that of GOV1005 students was 0.7%. Therefore it appears that course attendance policy does not significnatly influence student engagement within the context of synchronous online lecture attendance.")
+        p("Schools have been forced to quickly transition to online learning as a result of the COVID-19 crisis. Has this transition impacted school engagement for specific student groups? Specifically, are there differential patterns of attrition in synchronous online lecture attendance across different courses? This study tracks the attendance outcomes of 107 S052 and 120 GOV1005 students throughout the 11 lectures conducted in an online setting. Students were defined as having exited if they failed to synchronously attend three or more consecutive lectures after having attended one previously. Because 22 of the 227 students never attended lectures synchronously, they were excluded from the analysis."),
+        p("The anaysis fits a discrete-time hazard model for lecture absences in each week using course as our key predictor. Through logistic regression, the analysis tests whether the hazard probability of dropping out of attending online lectures synchronously is different for S052 students compared to that of GOV1005 students. The maximum likelihood tests the null hypothesis that there is no difference in the log-odds of dropping out between S052 and GOV1005 students who operate under contrasting attendance policies. The difference was not statistically significant and I failed to reject the null hypothesis that there were differing levels of attrition between courses."),
+        p("The estimated log-odds of S052 exiting is 0.611 (0.455%) higher compared to GOV1005 students controlling for time period and gender, but this difference is not statistically significant. Therefore it appears that course attendance policy does not significnatly influence student engagement within the context of synchronous online lecture attendance.")
       ),
       tabPanel(
         "Limitations",
@@ -303,7 +303,7 @@ ui <- navbarPage(
       tabPanel(
         "Acknowledgements",
         br(),
-        p("Thank you Preceptor Kane, Professor Ho, and all other members of the teaching staff for your instruction and guidance this semester. You adjusted with grace and understanding while remaining steadfast in the mission to motivate, teach, and serve. There is no better time than during this moment of uncertainty to appreciate the applied practice of statistical methods and data science.")
+        p("Thank you Preceptor Kane, Professor Ho, and all other members of the teaching staff for your instruction and guidance this semester. You adjusted with grace and understanding while remaining steadfast in the mission to motivate, teach, and serve. There is no better time than during this moment of uncertainty to appreciate the value of statistical methods and data science.")
       )
     )
   )
@@ -464,10 +464,10 @@ server <- function(input, output, session) {
         select(Course, Period, Surv = X1...sum...Exit..nrow...)
 
       survival$Survivalp <- 1
-      for (i in 2:10) {
+      for (i in 2:11) {
         survival$Survivalp[i] <- survival$Survivalp[i - 1] * survival$Surv[i]
-        survival$Survivalp[11] <- 1
-        for (i in 12:20) {
+        survival$Survivalp[12] <- 1
+        for (i in 13:22) {
           survival$Survivalp[i] <- survival$Survivalp[i - 1] * survival$Surv[i]
         }
       }
@@ -497,10 +497,10 @@ server <- function(input, output, session) {
         select(Course, Period, Surv = X1...sum...Exit..nrow...)
 
       survival$Survivalp <- 1
-      for (i in 2:10) {
+      for (i in 2:11) {
         survival$Survivalp[i] <- survival$Survivalp[i - 1] * survival$Surv[i]
-        survival$Survivalp[11] <- 1
-        for (i in 12:20) {
+        survival$Survivalp[12] <- 1
+        for (i in 13:22) {
           survival$Survivalp[i] <- survival$Survivalp[i - 1] * survival$Surv[i]
         }
       }
@@ -590,7 +590,7 @@ server <- function(input, output, session) {
     stargazer(mod1, mod2, mod3, mod4, mod5, mod6,
       type = "text",
       dep.var.labels = "Log-Odds of Dropping Synchronous Lecture Attendance",
-      covariate.labels = c("Lecture 2", "Lecture 3", "Lecture 4", "Lecture 5", "Lecture 6", "Lecture 7", "Lecture 8", "Lecture 9", "Lecture 10", "Course: S052", "Gender: Male", "Interaction: CoursexGender")
+      covariate.labels = c("Lecture 2", "Lecture 3", "Lecture 4", "Lecture 5", "Lecture 6", "Lecture 7", "Lecture 8", "Lecture 9", "Lecture 10", "Lecture 11", "Course: S052", "Gender: Male", "Interaction: CoursexGender")
     )
   })
 

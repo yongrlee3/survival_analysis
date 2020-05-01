@@ -1,256 +1,256 @@
-Course,ID,Role,Gender,Lec_1,Lec_2,Lec_3,Lec_4,Lec_5,Lec_6,Lec_7,Lec_8,Lec_9,Lec_10,Start,Lectures,Censor
-S052,1,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,2,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,3,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,4,Teaching Staff,Female,1,0,1,1,0,1,1,1,0,0,1,8,1
-S052,5,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,6,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,7,Teaching Staff,Female,1,1,1,1,0,0,0,0,0,0,1,4,0
-S052,8,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,9,Student,Female,1,1,1,1,0,0,0,0,0,0,1,4,0
-S052,10,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,11,Student,Male,1,0,0,1,1,1,1,1,0,1,1,10,1
-S052,12,Student,Male,1,1,1,1,1,1,1,0,1,1,1,10,1
-S052,13,Student,Female,1,0,1,0,0,0,0,0,1,0,1,3,0
-S052,14,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,15,Student,Female,1,1,1,1,1,0,1,1,1,0,1,9,1
-S052,16,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,17,Student,Male,1,1,1,0,0,1,1,1,1,1,1,10,1
-S052,18,Student,Female,1,0,1,1,0,0,0,0,1,0,1,4,0
-S052,19,Student,Male,1,0,1,0,1,0,0,0,0,0,1,5,0
-S052,20,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,21,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,22,Student,Male,1,1,1,1,1,1,1,1,0,1,1,10,1
-S052,23,Student,Female,1,1,1,1,0,1,1,0,0,0,1,7,0
-S052,24,Student,Female,1,1,0,1,1,1,1,1,1,1,1,10,1
-S052,25,Student,Female,1,0,1,0,0,0,0,0,0,0,1,3,0
-S052,26,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,27,Student,Female,1,1,1,1,1,1,0,1,1,1,1,10,1
-S052,28,Student,Female,1,1,1,1,1,1,1,1,0,1,1,10,1
-S052,29,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,30,Student,Male,1,1,1,1,0,1,1,0,0,0,1,7,0
-S052,31,Student,Female,1,0,1,0,0,0,0,0,0,0,1,3,0
-S052,32,Student,Female,1,1,1,1,1,0,1,0,1,1,1,10,1
-S052,33,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,34,Student,Male,1,1,1,1,1,1,0,1,1,1,1,10,1
-S052,35,Student,Female,0,0,0,0,0,0,0,0,1,0,9,1,1
-S052,36,Student,Female,1,1,1,0,1,0,1,0,1,0,1,9,1
-S052,37,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,38,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,39,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,40,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,41,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,42,Student,Female,1,1,1,1,1,1,0,1,1,1,1,10,1
-S052,43,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,44,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,45,Student,Male,1,1,1,1,1,0,1,1,1,1,1,10,1
-S052,46,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,47,Student,Female,1,1,1,1,1,0,1,1,1,1,1,10,1
-S052,48,Student,Male,1,1,0,1,1,1,1,1,1,1,1,10,1
-S052,49,Student,Male,1,1,1,1,1,0,1,1,1,1,1,10,1
-S052,50,Student,Female,1,1,1,1,0,1,1,1,1,1,1,10,1
-S052,51,Student,Female,1,1,1,1,1,1,1,1,1,0,1,9,1
-S052,52,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,53,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,54,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,55,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,56,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,57,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,58,Student,Female,1,1,1,1,1,1,1,0,1,1,1,10,1
-S052,59,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,60,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,61,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,62,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,63,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,64,Student,Female,1,1,0,0,0,0,0,0,0,0,1,2,0
-S052,65,Student,Female,1,0,1,0,0,0,0,0,1,1,1,3,0
-S052,66,Student,Female,1,1,1,1,0,1,0,0,1,0,1,9,1
-S052,67,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,68,Student,Female,1,1,1,1,0,1,0,0,0,0,1,6,0
-S052,69,Student,Female,1,1,1,1,1,1,1,0,1,1,1,10,1
-S052,70,Student,Male,1,1,1,0,0,1,1,1,1,1,1,10,1
-S052,71,Student,Female,1,1,1,1,1,1,0,1,1,1,1,10,1
-S052,72,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,73,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,74,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,75,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,76,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,77,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,78,Student,Female,1,1,1,0,1,0,1,1,0,1,1,10,1
-S052,79,Student,Female,1,1,1,1,1,0,1,0,1,1,1,10,1
-S052,80,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,81,Student,Female,1,1,1,0,0,0,0,0,0,0,1,3,0
-S052,82,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,83,Student,Male,1,1,1,1,0,0,0,0,0,0,1,4,0
-S052,84,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,85,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,86,Student,Male,1,1,1,0,1,0,1,1,1,1,1,10,1
-S052,87,Student,Male,1,1,1,1,1,0,1,1,1,1,1,10,1
-S052,88,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,89,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,90,Student,Female,1,1,1,1,1,0,1,1,1,1,1,10,1
-S052,91,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,92,Student,Female,1,1,1,1,1,1,0,1,0,0,1,8,1
-S052,93,Student,Female,1,1,1,1,0,0,0,0,0,0,1,4,0
-S052,94,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,95,Student,Female,0,0,0,1,1,1,1,1,0,0,4,5,1
-S052,96,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,97,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,98,Student,Female,1,1,1,1,1,1,1,1,0,1,1,10,1
-S052,99,Student,Female,1,1,1,1,1,1,1,0,0,1,1,10,1
-S052,100,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,101,Student,Male,1,1,0,0,1,0,0,0,0,0,1,5,0
-S052,102,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,103,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,104,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,105,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,106,Student,Female,1,1,1,1,1,1,1,1,1,0,1,9,1
-S052,107,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,108,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,109,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,110,Student,Female,1,1,1,1,1,1,1,1,1,0,1,9,1
-S052,111,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,112,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-S052,113,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-S052,114,Student,Male,1,1,1,1,0,0,1,0,0,0,1,7,0
-S052,115,Student,Female,1,1,1,1,0,1,1,1,1,1,1,10,1
-GOV1005,116,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,117,Teaching Staff,Male,0,0,0,1,0,0,0,0,0,0,4,1,0
-GOV1005,118,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,119,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,120,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,121,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,122,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,123,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,124,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,125,Teaching Staff,Male,1,1,0,0,0,0,0,0,0,0,1,2,0
-GOV1005,126,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,127,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,128,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,129,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,130,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,131,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,132,Teaching Staff,Female,1,0,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,133,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,134,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,135,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,136,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,137,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,138,Student,Female,1,1,1,1,0,0,1,1,1,1,1,10,1
-GOV1005,139,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,140,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,141,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,142,Student,Male,1,1,1,1,1,1,0,0,1,1,1,10,1
-GOV1005,143,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,144,Student,Male,0,0,0,0,1,1,1,1,1,0,5,5,1
-GOV1005,145,Student,Male,1,1,0,1,1,0,1,1,0,1,1,10,1
-GOV1005,146,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,147,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,148,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,149,Student,Male,1,1,1,0,1,0,1,1,1,1,1,10,1
-GOV1005,150,Student,Male,1,0,0,0,0,0,0,0,0,0,1,1,0
-GOV1005,151,Student,Female,1,1,1,1,1,1,0,1,1,1,1,10,1
-GOV1005,152,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,153,Student,Male,1,1,1,1,1,1,1,0,0,1,1,10,1
-GOV1005,154,Student,Male,1,1,0,1,1,1,1,1,1,1,1,10,1
-GOV1005,155,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,156,Student,Female,1,1,1,1,0,1,1,1,0,1,1,10,1
-GOV1005,157,Student,Male,1,1,1,1,1,1,1,0,1,1,1,10,1
-GOV1005,158,Student,Male,1,0,0,0,0,0,0,0,0,1,1,1,0
-GOV1005,159,Student,Male,1,1,1,1,1,1,1,1,0,0,1,8,1
-GOV1005,160,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,161,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,162,Student,Female,1,1,0,1,1,0,1,0,0,0,1,7,0
-GOV1005,163,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,164,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,165,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,166,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,167,Student,Male,1,1,0,1,1,1,0,1,0,1,1,10,1
-GOV1005,168,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,169,Student,Male,0,1,1,1,1,1,1,1,1,1,2,9,1
-GOV1005,170,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,171,Student,Female,1,1,1,1,0,1,1,1,1,1,1,10,1
-GOV1005,172,Student,Female,0,0,1,1,0,0,1,1,1,1,3,8,1
-GOV1005,173,Student,Male,1,1,1,1,1,1,0,1,1,1,1,10,1
-GOV1005,174,Student,Male,0,0,1,1,0,0,0,0,0,1,3,2,0
-GOV1005,175,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,176,Student,Female,1,1,1,1,0,1,1,0,1,1,1,10,1
-GOV1005,177,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,178,Student,Male,1,1,0,1,1,1,1,1,1,1,1,10,1
-GOV1005,179,Student,Male,0,0,0,0,1,1,1,1,0,1,5,6,1
-GOV1005,180,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,181,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,182,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,183,Student,Male,1,0,1,1,0,1,1,1,1,0,1,9,1
-GOV1005,184,Student,Male,1,0,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,185,Student,Male,1,0,1,1,1,1,1,0,0,0,1,7,0
-GOV1005,186,Student,Male,1,1,1,1,1,1,1,1,0,1,1,10,1
-GOV1005,187,Student,Male,1,1,1,0,1,0,0,0,1,0,1,5,0
-GOV1005,188,Student,Male,1,1,1,1,0,0,0,1,0,0,1,4,0
-GOV1005,189,Student,Male,1,1,1,1,1,1,1,1,1,0,1,9,1
-GOV1005,190,Student,Male,1,1,1,0,1,1,0,1,0,0,1,8,1
-GOV1005,191,Student,Female,1,1,1,1,1,1,1,0,0,0,1,7,0
-GOV1005,192,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,193,Student,Female,1,1,0,0,1,1,1,1,1,1,1,10,1
-GOV1005,194,Student,Female,1,1,1,0,1,1,1,1,1,1,1,10,1
-GOV1005,195,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,196,Student,Male,1,1,0,1,1,0,0,0,1,1,1,5,0
-GOV1005,197,Student,Male,1,1,1,1,1,1,1,1,1,0,1,9,1
-GOV1005,198,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,199,Student,Male,1,1,1,1,0,1,1,1,1,1,1,10,1
-GOV1005,200,Student,Female,1,1,1,0,1,1,1,1,0,1,1,10,1
-GOV1005,201,Student,Male,0,1,1,1,1,1,1,1,1,1,2,9,1
-GOV1005,202,Student,Male,1,1,1,0,1,1,0,1,1,0,1,9,1
-GOV1005,203,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,204,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,205,Student,Female,1,1,0,1,1,1,1,1,1,0,1,9,1
-GOV1005,206,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,207,Student,Female,1,1,1,1,1,1,0,1,1,1,1,10,1
-GOV1005,208,Student,Female,1,1,1,1,1,1,1,0,1,1,1,10,1
-GOV1005,209,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,210,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,211,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,212,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,213,Student,Female,0,1,1,1,1,1,1,1,0,1,2,9,1
-GOV1005,214,Student,Female,1,1,0,1,1,1,1,0,1,1,1,10,1
-GOV1005,215,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,216,Student,Female,1,1,1,1,1,0,1,1,0,1,1,10,1
-GOV1005,217,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,218,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,219,Student,Female,1,1,1,1,0,1,1,1,1,1,1,10,1
-GOV1005,220,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,221,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,222,Student,Male,1,0,0,1,1,1,1,1,1,1,1,10,1
-GOV1005,223,Student,Male,1,1,0,1,1,1,1,1,1,1,1,10,1
-GOV1005,224,Student,Male,1,1,1,0,1,1,0,1,0,1,1,10,1
-GOV1005,225,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,226,Student,Female,1,1,1,1,1,1,1,0,1,0,1,9,1
-GOV1005,227,Student,Female,1,0,1,1,1,0,1,1,1,0,1,9,1
-GOV1005,228,Student,Male,1,1,1,1,1,1,1,1,1,0,1,9,1
-GOV1005,229,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,230,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,231,Student,Female,1,1,1,1,1,1,1,0,1,1,1,10,1
-GOV1005,232,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,233,Student,Male,1,1,1,1,1,1,1,1,0,1,1,10,1
-GOV1005,234,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,235,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,236,Student,Male,1,1,0,0,0,0,0,0,0,0,1,2,0
-GOV1005,237,Student,Male,1,1,0,1,0,0,1,1,1,1,1,10,1
-GOV1005,238,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,239,Student,Male,1,0,1,0,1,0,0,0,0,0,1,5,0
-GOV1005,240,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,241,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,242,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,243,Student,Female,1,1,1,1,1,1,0,1,1,1,1,10,1
-GOV1005,244,Student,Male,1,1,1,1,1,1,1,0,1,1,1,10,1
-GOV1005,245,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,246,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,247,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,248,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,249,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,250,Student,Female,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,251,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,252,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,253,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
-GOV1005,254,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0
-GOV1005,255,Student,Male,1,1,1,1,1,1,1,1,1,1,1,10,1
+Course,Name,ID,Role,Gender,1,2,3,4,5,6,7,8,9,10,11,Start,Lectures,Censor,String
+S052,Andrew Ho,1,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Eileen McGiveney,2,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Eric Torres,3,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Fernanda Ramirez-Espinoza,4,Teaching Staff,Female,1,0,1,1,0,1,1,1,0,0,1,1,11,1,10110111001
+S052,James Jack,5,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Mikko Silliman,6,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Shelby Carvalho,7,Teaching Staff,Female,1,1,1,1,0,0,0,0,0,0,1,1,4,0,11110000001
+S052,Wendy Wei,8,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Aarushi Garg,9,Student,Female,1,1,1,1,0,0,0,0,0,0,1,1,4,0,11110000001
+S052,Aarya Shinde,10,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Abdullah Khan,11,Student,Male,1,0,0,1,1,1,1,1,0,1,1,1,11,1,10011111011
+S052,Abdullah Tajwar,12,Student,Male,1,1,1,1,1,1,1,0,1,1,1,1,11,1,11111110111
+S052,Abigail Orrick,13,Student,Female,1,0,1,0,0,0,0,0,1,0,1,1,3,0,10100000101
+S052,Allison Stevens,14,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Ama Peiris,15,Student,Female,1,1,1,1,1,0,1,1,1,0,1,1,11,1,11111011101
+S052,Angel Yinlin Guo,16,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Ari Ne'eman,17,Student,Male,1,1,1,0,0,1,1,1,1,1,1,1,11,1,11100111111
+S052,Avi Anshika,18,Student,Female,1,0,1,1,0,0,0,0,1,0,0,1,4,0,10110000100
+S052,Barune Thapa,19,Student,Male,1,0,1,0,1,0,0,0,0,0,0,1,5,0,10101000000
+S052,Bingran Zeng,20,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Brendan Kelly,21,Student,Male,1,1,1,1,1,1,1,1,1,1,0,1,10,1,11111111110
+S052,Brian Murphy,22,Student,Male,1,1,1,1,1,1,1,1,0,1,1,1,11,1,11111111011
+S052,Brittney Kapustina,23,Student,Female,1,1,1,1,0,1,1,0,0,0,1,1,7,0,11110110001
+S052,Chantel Slade,24,Student,Female,1,1,0,1,1,1,1,1,1,1,1,1,11,1,11011111111
+S052,Chevy Lazenby,25,Student,Female,1,0,1,0,0,0,0,0,0,0,0,1,3,0,10100000000
+S052,Christelle Saintis,26,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Christine Beltran,27,Student,Female,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+S052,Corey Cameron,28,Student,Female,1,1,1,1,1,1,1,1,0,1,1,1,11,1,11111111011
+S052,Dongying Li,29,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Drew Chambers,30,Student,Male,1,1,1,1,0,1,1,0,0,0,1,1,7,0,11110110001
+S052,Eily Sullivan,31,Student,Female,1,0,1,0,0,0,0,0,0,0,0,1,3,0,10100000000
+S052,Elaine Luo,32,Student,Female,1,1,1,1,1,0,1,0,1,1,1,1,11,1,11111010111
+S052,Eli Godwin,33,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Elijah Armstrong,34,Student,Male,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+S052,Elysia Chandler,35,Student,Female,0,0,0,0,0,0,0,0,1,0,1,9,3,1,101
+S052,Emily Meland,36,Student,Female,1,1,1,0,1,0,1,0,1,0,1,1,11,1,11101010101
+S052,Emma Cameron,37,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Felicia Soemarjono,38,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Frances Li,39,Student,Male,0,0,0,0,0,0,0,0,0,0,1,11,1,1,1
+S052,Gabriella Herrera,40,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Grace Ansah,41,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Hayley Boling,42,Student,Female,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+S052,Hezekiah Shobiye,43,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Hye Young Choi,44,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Ian Bott,45,Student,Male,1,1,1,1,1,0,1,1,1,1,1,1,11,1,11111011111
+S052,Ilkania Chowdhury-Paulino,46,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Izzy Rubin,47,Student,Female,1,1,1,1,1,0,1,1,1,1,1,1,11,1,11111011111
+S052,Jacob Perlson,48,Student,Male,1,1,0,1,1,1,1,1,1,1,1,1,11,1,11011111111
+S052,Jan Simson,49,Student,Male,1,1,1,1,1,0,1,1,1,1,1,1,11,1,11111011111
+S052,Janella Kang,50,Student,Female,1,1,1,1,0,1,1,1,1,1,1,1,11,1,11110111111
+S052,Jeannette Garcia Coppersmith,51,Student,Female,1,1,1,1,1,1,1,1,1,0,1,1,11,1,11111111101
+S052,Jenn Li,52,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Jesse Buccolo,53,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Jiahe Lin,54,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Jiayi Zhai,55,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Julia Callegari,56,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Kaela Connors,57,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Kailah Lee McGee,58,Student,Female,1,1,1,1,1,1,1,0,1,1,1,1,11,1,11111110111
+S052,Kaitlin Moran,59,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Lara Taneeb,60,Student,Female,0,0,0,0,0,0,0,0,0,0,1,11,1,1,1
+S052,Lina Lopez Lalinde,61,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Lucy Duan,62,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Madelyn Gardner,63,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Maggie Zhang,64,Student,Female,1,1,0,0,0,0,0,0,0,0,1,1,2,0,11000000001
+S052,Malia Skjefte,65,Student,Female,1,0,1,0,0,0,0,0,1,1,0,1,3,0,10100000110
+S052,Masha Kuznetsova,66,Student,Female,1,1,1,1,0,1,0,0,1,0,0,1,9,1,11110100100
+S052,Max Shuchman,67,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Megan Bogia,68,Student,Female,1,1,1,1,0,1,0,0,0,0,1,1,6,0,11110100001
+S052,Megan Satterthwaite Freiman,69,Student,Female,1,1,1,1,1,1,1,0,1,1,1,1,11,1,11111110111
+S052,Michal Miaskiewicz,70,Student,Male,1,1,1,0,0,1,1,1,1,1,1,1,11,1,11100111111
+S052,Michelle Lee,71,Student,Female,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+S052,Mila Bertolo,72,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Neena Kapoor,73,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Nia Johnson,74,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Nick Balisciano,75,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Nina Mascarenhas,76,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Ning Ma,77,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Nisha Reddy,78,Student,Female,1,1,1,0,1,0,1,1,0,1,1,1,11,1,11101011011
+S052,Pamela Nwakanma,79,Student,Female,1,1,1,1,1,0,1,0,1,1,1,1,11,1,11111010111
+S052,Philip Chew,80,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Quankamon Dejatiwongse Na Ayudhya,81,Student,Female,1,1,1,0,0,0,0,0,0,0,0,1,3,0,11100000000
+S052,Rafy Lim Choi,82,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Robert Stern,83,Student,Male,1,1,1,1,0,0,0,0,0,0,0,1,4,0,11110000000
+S052,Rongyu Xin,84,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Roza Nalbandyan,85,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Ryan Dai,86,Student,Male,1,1,1,0,1,0,1,1,1,1,1,1,11,1,11101011111
+S052,Sam Brobeck,87,Student,Male,1,1,1,1,1,0,1,1,1,1,1,1,11,1,11111011111
+S052,Sam Zheng Ming Chan,88,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Samantha Zepeda,89,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Sana Haider,90,Student,Female,1,1,1,1,1,0,1,1,1,1,1,1,11,1,11111011111
+S052,Sangay Thinley,91,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Sapphire Hou,92,Student,Female,1,1,1,1,1,1,0,1,0,0,1,1,11,1,11111101001
+S052,Sofia De Arrigunaga,93,Student,Female,1,1,1,1,0,0,0,0,0,0,0,1,4,0,11110000000
+S052,Somaia Razzak,94,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Soyoung Park,95,Student,Female,0,0,0,1,1,1,1,1,0,0,1,4,8,1,11111001
+S052,Stephanie Zhang,96,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Summer Feng,97,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Sun Kim,98,Student,Female,1,1,1,1,1,1,1,1,0,1,1,1,11,1,11111111011
+S052,Supriya Tamang,99,Student,Female,1,1,1,1,1,1,1,0,0,1,1,1,11,1,11111110011
+S052,Taylor Boyd,100,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Tomihiro Ono,101,Student,Male,1,1,0,0,1,0,0,0,0,0,1,1,5,0,11001000001
+S052,Valentina Vargas,102,Student,Female,1,1,1,1,1,1,1,1,1,1,0,1,10,1,11111111110
+S052,Vanessa Toro Barragan,103,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,William Borchert,104,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Wura Mosuro,105,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Xizi (Sue) Zhang,106,Student,Female,1,1,1,1,1,1,1,1,1,0,1,1,11,1,11111111101
+S052,Yifan Fu,107,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Yingna Wang,108,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Yinru Long,109,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Yitong Hu,110,Student,Female,1,1,1,1,1,1,1,1,1,0,1,1,11,1,11111111101
+S052,Yong Lee,111,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Zaamin Hussain,112,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+S052,Zachary Lim,113,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S052,Zennon Black,114,Student,Male,1,1,1,1,0,0,1,0,0,0,1,1,7,0,11110010001
+S052,Zenzile Riddick,115,Student,Female,1,1,1,1,0,1,1,1,1,1,1,1,11,1,11110111111
+GOV1005,David Kane,116,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Albert Rivero,117,Teaching Staff,Male,0,0,0,1,0,0,0,0,0,0,0,4,1,0,10000000
+GOV1005,Alyssa Huberts,118,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Amy Tan,119,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,April Chen,120,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Claire Fridkin,121,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Dillon Smith,122,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Evelyn Cai,123,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Jack Schroeder,124,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Jeremy Guillette,125,Teaching Staff,Male,1,1,0,0,0,0,0,0,0,0,0,1,2,0,11000000000
+GOV1005,Joshua Pan,126,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,June Hwang,127,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Kaneesha Johnson,128,Teaching Staff,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Katie Cao,129,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Mitchell Kilborn,130,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Roger Zhang,131,Teaching Staff,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Rucha Joshi,132,Teaching Staff,Female,1,0,1,1,1,1,1,1,1,1,0,1,10,1,10111111110
+GOV1005,Seeam Noor,133,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Shivani Aggarwal,134,Teaching Staff,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Yao Yu,135,Teaching Staff,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Adelson Aguasvivas,136,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Alexandra Ubalijoro,137,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Amy Zhou,138,Student,Female,1,1,1,1,0,0,1,1,1,1,1,1,11,1,11110011111
+GOV1005,Andrew Courtney,139,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Andy Wang,140,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Angie Shin,141,Student,Female,1,1,1,1,1,1,1,1,1,1,0,1,10,1,11111111110
+GOV1005,Arnav Srivastava,142,Student,Male,1,1,1,1,1,1,0,0,1,1,1,1,11,1,11111100111
+GOV1005,Arushi Saxena,143,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Asmer Safi,144,Student,Male,0,0,0,0,1,1,1,1,1,0,0,5,5,1,1111100
+GOV1005,Austin Li,145,Student,Male,1,1,0,1,1,0,1,1,0,1,1,1,11,1,11011011011
+GOV1005,Belinda Hu,146,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Benjamin Villa,147,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Brendan Chapuis,148,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Brian Kim,149,Student,Male,1,1,1,0,1,0,1,1,1,1,1,1,11,1,11101011111
+GOV1005,Cameron Reaves,150,Student,Male,1,0,0,0,0,0,0,0,0,0,0,1,1,0,10000000000
+GOV1005,Carina Peng,151,Student,Female,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+GOV1005,Cassidy Bargell,152,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Chase Bookin,153,Student,Male,1,1,1,1,1,1,1,0,0,1,0,1,11,1,11111110010
+GOV1005,Chase Souder,154,Student,Male,1,1,0,1,1,1,1,1,1,1,1,1,11,1,11011111111
+GOV1005,Connor Riordan,155,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Daniela Teran,156,Student,Female,1,1,1,1,0,1,1,1,0,1,1,1,11,1,11110111011
+GOV1005,David Sutton,157,Student,Male,1,1,1,1,1,1,1,0,1,1,1,1,11,1,11111110111
+GOV1005,Diassa Diakite,158,Student,Male,1,0,0,0,0,0,0,0,0,1,0,1,1,0,10000000010
+GOV1005,Elias Abu Nuwara,159,Student,Male,1,1,1,1,1,1,1,1,0,0,0,1,8,0,11111111000
+GOV1005,Elias DeLeon,160,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Eliot Min,161,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Ella Michaels,162,Student,Female,1,1,0,1,1,0,1,0,0,0,0,1,7,0,11011010000
+GOV1005,Emily Ni,163,Student,Female,1,1,1,1,1,1,1,1,1,1,0,1,10,1,11111111110
+GOV1005,Emma Freeman,164,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Fatma Al-Alawi,165,Student,Female,1,1,1,1,1,1,1,1,1,1,0,1,10,1,11111111110
+GOV1005,Gabriel Cederberg,166,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Garrett Rolph,167,Student,Male,1,1,0,1,1,1,0,1,0,1,0,1,10,1,11011101010
+GOV1005,George Dalianis,168,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Gian Paolo Pasco,169,Student,Male,0,1,1,1,1,1,1,1,1,1,1,2,11,1,1111111111
+GOV1005,Grace Pan,170,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Grace Zhang,171,Student,Female,1,1,1,1,0,1,1,1,1,1,1,1,11,1,11110111111
+GOV1005,Haeyun Lee,172,Student,Female,0,0,1,1,0,0,1,1,1,1,0,3,10,1,110011110
+GOV1005,Hamaad Mehal,173,Student,Male,1,1,1,1,1,1,0,1,1,1,0,1,10,1,11111101110
+GOV1005,Hamid Khan,174,Student,Male,0,0,1,1,0,0,0,0,0,1,0,3,2,0,110000010
+GOV1005,Hannah Phan,175,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Helen Pang,176,Student,Female,1,1,1,1,0,1,1,0,1,1,0,1,10,1,11110110110
+GOV1005,Henry Austin,177,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Hudson Miller,178,Student,Male,1,1,0,1,1,1,1,1,1,1,1,1,11,1,11011111111
+GOV1005,Ibraheem Khan,179,Student,Male,0,0,0,0,1,1,1,1,0,1,0,5,6,1,1111010
+GOV1005,Ilyas Mardin,180,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Ishan Bhatt,181,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Jack Fetsch,182,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Jack Kelly,183,Student,Male,1,0,1,1,0,1,1,1,1,0,1,1,11,1,10110111101
+GOV1005,Jacob Hansen,184,Student,Male,1,0,1,1,1,1,1,1,1,1,1,1,11,1,10111111111
+GOV1005,Jad Maayah,185,Student,Male,1,0,1,1,1,1,1,0,0,0,1,1,7,0,10111110001
+GOV1005,Jamal Nimer,186,Student,Male,1,1,1,1,1,1,1,1,0,1,1,1,11,1,11111111011
+GOV1005,James Bikales,187,Student,Male,1,1,1,0,1,0,0,0,1,0,1,1,5,0,11101000101
+GOV1005,James Hutt,188,Student,Male,1,1,1,1,0,0,0,1,0,0,0,1,4,0,11110001000
+GOV1005,Jason Rose,189,Student,Male,1,1,1,1,1,1,1,1,1,0,1,1,11,1,11111111101
+GOV1005,Jason Yoo,190,Student,Male,1,1,1,0,1,1,0,1,0,0,0,1,8,0,11101101000
+GOV1005,Jenna Moustafa,191,Student,Female,1,1,1,1,1,1,1,0,0,0,1,1,7,0,11111110001
+GOV1005,Jeremiah Kim,192,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Jerrica Li,193,Student,Female,1,1,0,0,1,1,1,1,1,1,1,1,11,1,11001111111
+GOV1005,Jessica Edwards,194,Student,Female,1,1,1,0,1,1,1,1,1,1,1,1,11,1,11101111111
+GOV1005,Jessica Wu,195,Student,Female,1,1,1,1,1,1,1,1,1,1,0,1,10,1,11111111110
+GOV1005,John Mark Ozaeta,196,Student,Male,1,1,0,1,1,0,0,0,1,1,1,1,5,0,11011000111
+GOV1005,John Morse,197,Student,Male,1,1,1,1,1,1,1,1,1,0,1,1,11,1,11111111101
+GOV1005,Jonah Fried,198,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Josh Mathews,199,Student,Male,1,1,1,1,0,1,1,1,1,1,1,1,11,1,11110111111
+GOV1005,Julia Englebert,200,Student,Female,1,1,1,0,1,1,1,1,0,1,1,1,11,1,11101111011
+GOV1005,Julian Habermann,201,Student,Male,0,1,1,1,1,1,1,1,1,1,1,2,11,1,1111111111
+GOV1005,Julius Gunnemann,202,Student,Male,1,1,1,0,1,1,0,1,1,0,1,1,11,1,11101101101
+GOV1005,Jun-Yong Kim,203,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Karen Jiang,204,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Katelyn Li,205,Student,Female,1,1,0,1,1,1,1,1,1,0,1,1,11,1,11011111101
+GOV1005,Katherine Wang,206,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Kayla Manning,207,Student,Female,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+GOV1005,Kelsey Wu,208,Student,Female,1,1,1,1,1,1,1,0,1,1,1,1,11,1,11111110111
+GOV1005,Kiera O'Brien,209,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Kyra Colbert,210,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Lainey Newman,211,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Lara Teich,212,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Leena Ambady,213,Student,Female,0,1,1,1,1,1,1,1,0,1,0,2,10,1,1111111010
+GOV1005,Linda Qin,214,Student,Female,1,1,0,1,1,1,1,0,1,1,1,1,11,1,11011110111
+GOV1005,Lindsey Greenhill,215,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Liz Hoveland,216,Student,Female,1,1,1,1,1,0,1,1,0,1,1,1,11,1,11111011011
+GOV1005,Lucy He,217,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Luke Kolar,218,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Makenna Famulari,219,Student,Female,1,1,1,1,0,1,1,1,1,1,1,1,11,1,11110111111
+GOV1005,Mark Stephens,220,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Matej Cerman,221,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Micah Williams,222,Student,Male,1,0,0,1,1,1,1,1,1,1,1,1,11,1,10011111111
+GOV1005,Michael Chen,223,Student,Male,1,1,0,1,1,1,1,1,1,1,1,1,11,1,11011111111
+GOV1005,Michael Wu,224,Student,Male,1,1,1,0,1,1,0,1,0,1,0,1,10,1,11101101010
+GOV1005,Mohamed Mabizari,225,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Naina Tejani,226,Student,Female,1,1,1,1,1,1,1,0,1,0,0,1,9,1,11111110100
+GOV1005,Nidal Morrison,227,Student,Female,1,0,1,1,1,0,1,1,1,0,1,1,11,1,10111011101
+GOV1005,Nishu Lahoti,228,Student,Male,1,1,1,1,1,1,1,1,1,0,1,1,11,1,11111111101
+GOV1005,Owen Bernstein,229,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Paddy Adams,230,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Rachel Auslander,231,Student,Female,1,1,1,1,1,1,1,0,1,1,0,1,10,1,11111110110
+GOV1005,Rachel Phan,232,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Raymond Hu,233,Student,Male,1,1,1,1,1,1,1,1,0,1,1,1,11,1,11111111011
+GOV1005,Rebecca Xi,234,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Richard Zhu,235,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Sam Saba,236,Student,Male,1,1,0,0,0,0,0,0,0,0,0,1,2,0,11000000000
+GOV1005,Saul Soto,237,Student,Male,1,1,0,1,0,0,1,1,1,1,1,1,11,1,11010011111
+GOV1005,Scott Mahon,238,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Shojeh Liu,239,Student,Male,1,0,1,0,1,0,0,0,0,0,0,1,5,0,10101000000
+GOV1005,Shreyvardhan Sharma,240,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Sophie Webster,241,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Stephanie Cheng,242,Student,Female,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Suruchi Ramanujan,243,Student,Female,1,1,1,1,1,1,0,1,1,1,1,1,11,1,11111101111
+GOV1005,Tahmid Ahmed,244,Student,Male,1,1,1,1,1,1,1,0,1,1,0,1,10,1,11111110110
+GOV1005,Tate Huffman,245,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Taylor Greenberg Goldy,246,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Teddy Landis,247,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Thomas Weiss,248,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Tivas Gupta,249,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Vivian Zhang,250,Student,Female,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Westley Cook,251,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Will Schrepferman,252,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Wyatt Hurt,253,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
+GOV1005,Yanghe Liu,254,Student,Male,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GOV1005,Yong Lee,255,Student,Male,1,1,1,1,1,1,1,1,1,1,1,1,11,1,11111111111
