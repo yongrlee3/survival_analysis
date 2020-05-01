@@ -5,8 +5,8 @@ account: yongrlee3
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2187071
-bundleId: 3090855
+bundleId: 3091349
 url: https://yongrlee3.shinyapps.io/survival_analysis/
-when: 1588351673.73765
+when: 1588359302.70967
 asMultiple: FALSE
 asStatic: FALSE
