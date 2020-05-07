@@ -52,13 +52,13 @@ ui <- navbarPage(
         "Collection & Manipulation",
         br(),
         p("Both classes conducted biweekly lectures on Tuesdays and Thursdays, hosting 11 lectures in total. Lecture attendance data was collected via Zoom for students in both classes, who have been anonymized for privacy purposes. Additionally, student characteristics data collected from Canvas' course roster was used to supplement the existing attendance data. Future extensions of this analysis may involve examining differential patterns of attrition across additional predictors like registration type, student year, or school given a larger dataset of more than two courses."),
-        p("Because members of the teaching staff operate under different incentives than students, their attendance data was excluded from this survival analysis. Additionally, Students who never attended online lecture synchronously throughout the 11 lecture period were also excluded from this analysis. These students were assumed to have been excused from synchronous lecture attendance as a result of case-specific challenges like time-zone differences or learning accomodations. Only students who attended at least one online lecture synchronously were considered for this analysis. A student was defined as dropping out of online lectures if they failed to synchronously attend three or more consecutive lectures after having attended one previously. Given the 11 lecture timeline, a threshold of four missed lectures was too conservative while two missed lectures was too aggressive considering the biweekly nature of both courses.")
+        p("Because members of the teaching staff operate under different incentives than students, their attendance data was excluded from this survival analysis. Additionally, students who never attended online lecture synchronously throughout the 11 lecture period were also excluded from this analysis. These students were assumed to have been excused from synchronous lecture attendance as a result of case-specific challenges like time-zone differences or learning accomodations. Only students who attended at least one online lecture synchronously were considered for this analysis. A student was defined as dropping out of online lectures if they failed to synchronously attend four or more consecutive lectures after having attended one previously. Given the 11 lecture timeline, a threshold of five missed lectures was too conservative while three missed lectures was too aggressive considering the biweekly nature of both courses.")
       ),
       tabPanel(
         "Data Censoring",
         br(),
         p("Lecture attendance was tracked on a relative basis to account for students whose transition to online learning was interupted by travel and other extenuating circumstances. As a result, if certain students began attending online lectures synchronously after the third lecture, their attendance in the fourth lecture was recorded for their first lecture. To keep lecture periods consistent on an absolute basis, these students were censored in the dataset so that only their attendance in lectures 4-11 were included in the analysis."),
-        p("Censoring addresses a problem intrinsic to survival data: the fact that not every student experiences the drop out event within the duration of the study. While students who attended all 11 lectures may drop out after 15 or 20 lectures, the timeline for data collection limits this information. Therefore there is no way to know the drop out period for students in the sample who may have the longest times-to-event. Additionally, students who stopped attending after lecture 9 cannot be defined as having dropped out, since their attendance data after lecture 11 does not exist. While censored students present incomplete data, removing them completely would bias the results towards students in the sample who dropped out within the observation period. Therefore, data collected prior to censoring for students who began attending lectures late, continued attending beyond the cutoff, or stopped attending near the cutoff was included in the analysis.. "),
+        p("Censoring addresses a problem intrinsic to survival data: the fact that not every student experiences the drop out event within the duration of the study. While students who attended all 11 lectures may drop out after 15 or 20 lectures, the timeline for data collection limits this information. Therefore there is no way to know the drop out period for students in the sample who may have the longest times-to-event. Additionally, students who stopped attending after lecture 8 cannot be defined as having dropped out, since their attendance data after lecture 11 does not exist. While censored students present incomplete data, removing them completely would bias the results towards students in the sample who dropped out within the observation period. Therefore, data collected prior to censoring for students who began attending lectures late, continued attending beyond the cutoff, or stopped attending near the cutoff was included in the analysis."),
         p(
           "You can find the data and code for this project on my ",
           a("Github",
@@ -83,7 +83,7 @@ ui <- navbarPage(
         "Classical Survival Analysis",
         br(),
         h4("Classical Survival Analysis"),
-        p("Survival analysis is a statistical method commonly used to answer whether and when individuals experience a certain event. In this analysis, the event is defined as failing to synchronously attend three or more consecutive online lectures after having attended one previously. This project estimates the hazard and survival functions for synchronous online lecture attendance and uses logistic regression to test for differences in the rates of attrition across time periods, between courses, and across genders."),
+        p("Survival analysis is a statistical method commonly used to answer whether and when individuals experience a certain event. In this analysis, the event is defined as failing to synchronously attend four or more consecutive online lectures after having attended one previously. This project estimates the hazard and survival functions for synchronous online lecture attendance and uses logistic regression to test for differences in the rates of attrition across time periods, between courses, and across genders."),
         h4("Hazard and Survival Functions"),
         p("The hazard function defines the probability that the subject will experience an event of interest in a given interval. The survival function defines the probability that the event of interest will not occurr in a given interval")
       ),
@@ -191,7 +191,7 @@ ui <- navbarPage(
           numericInput(
             "intercept",
             "Intercept",
-            -5.206
+            -5.209
           )
         ),
         column(
@@ -199,7 +199,7 @@ ui <- navbarPage(
           numericInput(
             "coefficient",
             "Coefficient",
-            0.611
+            1.021
           )
         ),
         column(
@@ -238,7 +238,7 @@ ui <- navbarPage(
           "model",
           "Select Model",
           c("Model 1" = "model1", "Model 2" = "model2", "Model 3" = "model3", "Model 4" = "model4", "Model 5" = "model5", "Model 6" = "model6"),
-          selected = "model5"
+          selected = "model3"
         ),
         plotOutput("model")
       )
@@ -250,15 +250,15 @@ ui <- navbarPage(
       tabPanel(
         "Findings",
         br(),
-        p("Schools have been forced to quickly transition to online learning as a result of the COVID-19 crisis. Has this transition impacted school engagement for specific student groups? Specifically, are there differential patterns of attrition in synchronous online lecture attendance across different courses? This study tracks the attendance outcomes of 107 S052 and 120 GOV1005 students throughout the 11 lectures conducted in an online setting. Students were defined as having exited if they failed to synchronously attend three or more consecutive lectures after having attended one previously. Because 22 of the 227 students never attended lectures synchronously, they were excluded from the analysis."),
-        p("The analysis fits a discrete-time hazard model for lecture absences in each week using course as our key predictor. Through logistic regression, the analysis tests whether the hazard probability of dropping out of attending online lectures synchronously is different for S052 students compared to that of GOV1005 students. The maximum likelihood tests the null hypothesis that there is no difference in the log-odds of dropping out between S052 and GOV1005 students who operate under contrasting attendance policies. The difference was not statistically significant and I failed to reject the null hypothesis that there were differing levels of attrition between courses."),
-        p("The estimated log-odds of S052 exiting is 0.611 (0.455%) higher compared to GOV1005 students controlling for time period and gender, but this difference is not statistically significant. Therefore it appears that course attendance policy does not significnatly influence student engagement within the context of synchronous online lecture attendance.")
+        p("Schools have been forced to quickly transition to online learning as a result of the COVID-19 crisis. Has this transition impacted school engagement for specific student groups? Specifically, are there differential patterns of attrition in synchronous online lecture attendance across different courses? This study tracks the attendance outcomes of 107 S052 and 120 GOV1005 students throughout the 11 lectures conducted in an online setting. Students were defined as having exited if they failed to synchronously attend four or more consecutive lectures after having attended one previously. Because 22 of the 227 students never attended lectures synchronously, they were excluded from the analysis."),
+        p("The analysis fits a discrete-time hazard model for lecture absences in each week using course as our key predictor. Through logistic regression, the analysis tests whether the hazard probability of dropping out of attending online lectures synchronously is different for S052 students compared to that of GOV1005 students. The maximum likelihood tests the null hypothesis that there is no difference in the log-odds of dropping out between S052 and GOV1005 students who operate under contrasting attendance policies. The difference was statistically significant and I therefore reject the null hypothesis that there were no differing levels of attrition between courses."),
+        p("The estimated log-odds of S052 students dropping out is 1.021 (0.951%) higher compared to that of GOV1005 students controlling for time period. Therefore it appears that course attendance policy significantly influences student engagement within the context of synchronous online lecture attendance. Gender and the interaction between course and gender were introduced as additional covariates, but were not found to be statistically significant.")
       ),
       tabPanel(
         "Limitations",
         br(),
         p("Although a strong academic exercise, it is difficult to generalize the findings from this analysis given the small sample size. Additionally, student characteristic predictors like enrollment type, grade, and school were unavailable for this iteration of the analysis. Data collection on a larger, longer, and more comprehensive scale may yield more robust results that are generalizable to the population."),
-        p("Even with more observations, the findings from this analysis may not apply to student attendance in all online classrooms. Given the unique circumstances of the COVID-19 crisis, instructors have likely adopted looser guidelines for course attendance. Additionally, student attendance during this crisis may not reflect regular online student behavior in more normal times. Given that this project only analyzes two courses that not occur at different times but are also composed of different types of students, any observed differences may simply be a result of these external factors. It is crucial that similar analyses in the future analyze similarly structured courses that only differ in attendance policy."),
+        p("Even with more observations, the findings from this analysis may not apply to student attendance in all online classrooms. Given the unique circumstances of the COVID-19 crisis, instructors have likely adopted looser guidelines for course attendance. Additionally, student attendance during this crisis may not reflect regular online student behavior in more normal times. Given that this project only analyzes two courses that not only occur at different times but are also composed of different types of students, any observed differences may simply be a result of these external factors. It is crucial that similar analyses in the future analyze similarly structured courses that only differ in attendance policy."),
         p("Lastly, the designations made for censoring and defining the event of interest were thoroughly considered, but remain unsupported by data. A different censoring method, as well as a more conservative or aggressive event threshold may prove to be more appropriate in conducting this survival analysis.")
       ),
       tabPanel(

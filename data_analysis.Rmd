@@ -1,5 +1,5 @@
 ---
-title: "data_cleaning"
+title: "data_analysis"
 author: "Yong Lee"
 date: "5/1/2020"
 output: html_document
@@ -7,9 +7,13 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls())
+
 # load necessary packages
 
 library(tidyverse)
+library(stargazer)
+library(lmtest)
 ```
 
 Data was collected and values were assigned in Excel using logical if statements. For attendance data where 1 indicates presence and 0 indicates absence, a string of 11 values were concatonated and examined for a succession of 3 or more 0's following after a 1. This was done to distinguish individuals who started attending online lectures later on in the semester and those who dropped out. Censorship was assigned on the basis of surviving students whose data for select periods of time were unavailable. The event variable is reserved for data wrangling in R.
@@ -81,4 +85,55 @@ data_pp <- data %>%
 # save dataset in raw data subdirectory
 
 saveRDS(data_pp, "shiny_app/raw-data/data_pp.rds")
+```
+
+```{r models}
+# generate logistic regression models
+    
+# model 1: unconditional model 
+    
+mod1 <- glm(Exit ~ 1, data = data_pp, family = "binomial")
+data_pp <- data_pp %>% 
+  mutate(pred_m1 = predict(mod1, type = "response"))
+
+# model 2: exit on period
+    
+mod2 <- glm(Exit ~ Period, data = data_pp, family = "binomial")
+data_pp <- data_pp %>%
+  mutate(pred_m2 = predict(mod2, type = "response"))
+
+# model 3: exit on period and course
+    
+mod3 <- glm(Exit ~ Period + Course, data = data_pp, family = "binomial")
+data_pp <- data_pp %>%
+  mutate(pred_m3 = predict(mod3, type = "response"))
+
+# model 4: exit on period and gender
+    
+mod4 <- glm(Exit ~ Period + Gender, data = data_pp, family = "binomial")
+data_pp <- data_pp %>%
+  mutate(pred_m4 = predict(mod4, type = "response"))
+
+# model 5: exit on period, course, and gender
+    
+mod5 <- glm(Exit ~ Period + Course + Gender, data = data_pp, family = "binomial")
+data_pp <- data_pp %>%
+  mutate(pred_m5 = predict(mod5, type = "response"))
+
+# model 6: exit on period, course, gender, and interaction between course and gender
+    
+mod6 <- glm(Exit ~ Period + Course * Gender, data = data_pp, family = "binomial")
+data_pp <- data_pp %>%
+  mutate(pred_m6 = predict(mod6, type = "response"))
+
+# generate taxonomy table of fitted models
+    
+stargazer(mod1, mod2, mod3, mod4, mod5, mod6,
+          type = "text",
+          dep.var.labels = "Log-Odds of Dropping Synchronous Lecture Attendance",
+          covariate.labels = c("Lecture 2", "Lecture 3", "Lecture 4", "Lecture 5", "Lecture 6", "Lecture 7", "Lecture 8", "Lecture 9", "Lecture 10", "Lecture 11", "Course: S052", "Gender: Male", "Interaction: CoursexGender"))
+```
+
+```{r likelihood_test}
+lrtest (mod2, mod3)
 ```
