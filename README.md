@@ -5,9 +5,9 @@ Has the transition to online learning in response to COVID-19 affected student e
 
 ## Repository Guide
 ### survival_analysis directory
-data_wrangling.rmd: R script cleaning and manipulating Attendance.csv for analysis
+data_analysis.rmd: R script cleaning and manipulating Attendance.csv for analysis
 #### raw-data subdirectory
-Attendance v0.xlsx: Original person-level data collected from Zoom
+Attendance.xlsx: Original person-level data collected from Zoom
 Attendance.csv: Converted csv file for data loading
 #### shiny_app subdirectory
 app: script that generates shiny app in R
